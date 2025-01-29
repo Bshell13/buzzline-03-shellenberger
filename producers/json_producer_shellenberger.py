@@ -1,5 +1,5 @@
 """
-json_producer_case.py
+json_producer_shellenberger.py
 
 Stream JSON data to a Kafka topic.
 
@@ -106,7 +106,7 @@ def generate_messages(file_path: pathlib.Path):
 
                 # Iterate over the entries in the JSON file
                 for buzz_entry in json_data:
-                    logger.debug(f"Generated JSON: {buzz_entry}")
+                    logger.debug(f"Generated JSON: {buzz_entry['author']} created meassage: '{buzz_entry['message']}'")
                     yield buzz_entry
         except FileNotFoundError:
             logger.error(f"File not found: {file_path}. Exiting.")
