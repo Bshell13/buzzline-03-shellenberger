@@ -96,9 +96,10 @@ def process_message(message: str) -> None:
 
             # Increment the count for the author
             author_counts[author] += 1
-
+        
             # Log the updated counts
-            logger.info(f"Updated author counts: {dict(author_counts)}")
+            logger.info(f"Updated author counts: {dict(author_counts)} messages recieved.")
+            logger.info(f"There are a total of {sum(author_counts.values())}")
         else:
             logger.error(f"Expected a dictionary but got: {type(message_dict)}")
 
