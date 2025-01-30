@@ -98,7 +98,7 @@ def detect_stall(rolling_window_deque: deque) -> bool:
     # And our food is ready :)
     temp_range = max(rolling_window_deque) - min(rolling_window_deque)
     is_stalled: bool = temp_range <= get_stall_threshold()
-    logger.debug(f"Temperature range: {temp_range}°F. Stalled: {is_stalled}")
+    logger.debug(f"Temperature range: {temp_range:.2f}°F. Stalled: {is_stalled}")
     return is_stalled
 
 
