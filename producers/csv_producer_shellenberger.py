@@ -107,7 +107,7 @@ def generate_messages(file_path: pathlib.Path):
                         "timestamp": current_timestamp,
                         "temperature": float(row["temperature"]),
                     }
-                    logger.debug(f"Generated message: {message}")
+                    logger.debug(f"Generated message: {message['timestamp']} the temerature was {message['temperature']}")
                     yield message
         except FileNotFoundError:
             logger.error(f"File not found: {file_path}. Exiting.")

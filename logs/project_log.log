@@ -10401,3 +10401,581 @@ b'}
 2025-01-28 21:38:11.584 | WARNING  | __main__:main:143 - Consumer interrupted by user.
 2025-01-28 21:38:11.598 | INFO     | __main__:main:148 - Kafka consumer for topic 'buzzline_json' closed.
 2025-01-28 21:38:11.600 | INFO     | __main__:main:150 - END consumer for topic 'buzzline_json' and group 'buzz_group'.
+2025-01-28 21:38:12.059 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Eve'}
+2025-01-28 21:38:13.069 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Eve'}
+2025-01-28 21:38:14.095 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Alice'}
+2025-01-28 21:38:15.097 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Alice'}
+2025-01-28 21:38:16.102 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Diana'}
+2025-01-28 21:38:17.106 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Eve'}
+2025-01-28 21:38:18.108 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Charlie'}
+2025-01-28 21:38:19.127 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Bob'}
+2025-01-28 21:38:20.140 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Alice'}
+2025-01-28 21:38:21.153 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Diana'}
+2025-01-28 21:38:22.157 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Diana'}
+2025-01-28 21:38:23.183 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Bob'}
+2025-01-28 21:38:24.187 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Diana'}
+2025-01-28 21:38:25.202 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Diana'}
+2025-01-28 21:38:26.204 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Alice'}
+2025-01-28 21:38:27.207 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Charlie'}
+2025-01-28 21:38:28.211 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Diana'}
+2025-01-28 21:38:29.215 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Bob'}
+2025-01-28 21:38:30.218 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana'}
+2025-01-28 21:38:31.220 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Alice'}
+2025-01-28 21:38:32.224 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Alice'}
+2025-01-28 21:38:33.256 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Charlie'}
+2025-01-28 21:38:34.265 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Bob'}
+2025-01-28 21:38:35.266 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Diana'}
+2025-01-28 21:38:36.270 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana'}
+2025-01-28 21:38:37.289 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Alice'}
+2025-01-28 21:38:38.292 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Charlie'}
+2025-01-28 21:38:39.295 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice'}
+2025-01-28 21:38:40.298 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Diana'}
+2025-01-28 21:38:41.301 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice'}
+2025-01-28 21:38:42.303 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Bob'}
+2025-01-28 21:38:43.306 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Bob'}
+2025-01-28 21:38:44.311 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Diana'}
+2025-01-28 21:38:45.320 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Bob'}
+2025-01-28 21:38:46.357 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Eve'}
+2025-01-28 21:38:47.380 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Bob'}
+2025-01-28 21:38:48.383 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Alice'}
+2025-01-28 21:38:49.387 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Eve'}
+2025-01-28 21:38:50.388 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice'}
+2025-01-28 21:38:51.392 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Bob'}
+2025-01-28 21:38:52.400 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Charlie'}
+2025-01-28 21:38:53.412 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana'}
+2025-01-28 21:38:54.419 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Bob'}
+2025-01-28 21:38:55.423 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice'}
+2025-01-28 21:38:56.427 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Alice'}
+2025-01-28 21:38:57.439 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana'}
+2025-01-28 21:38:58.451 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Alice'}
+2025-01-28 21:38:59.457 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Diana'}
+2025-01-28 21:39:00.460 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Bob'}
+2025-01-28 21:39:01.462 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana'}
+2025-01-28 21:39:02.468 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice'}
+2025-01-28 21:39:03.472 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Eve'}
+2025-01-28 21:39:04.475 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana'}
+2025-01-28 21:39:05.488 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Charlie'}
+2025-01-28 21:39:06.490 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Charlie'}
+2025-01-28 21:39:07.493 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Alice'}
+2025-01-28 21:39:08.497 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Diana'}
+2025-01-28 21:39:09.502 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Bob'}
+2025-01-28 21:39:10.505 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Eve'}
+2025-01-28 21:39:11.508 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Charlie'}
+2025-01-28 21:39:12.515 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Charlie'}
+2025-01-28 21:39:13.522 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Charlie'}
+2025-01-28 21:39:14.526 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Diana'}
+2025-01-28 21:39:15.528 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Diana'}
+2025-01-28 21:39:16.534 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Eve'}
+2025-01-28 21:39:17.537 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Eve'}
+2025-01-28 21:39:18.540 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Eve'}
+2025-01-28 21:39:19.543 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Alice'}
+2025-01-28 21:39:20.549 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Bob'}
+2025-01-28 21:39:21.554 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Bob'}
+2025-01-28 21:39:22.565 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Eve'}
+2025-01-28 21:39:23.583 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Alice'}
+2025-01-28 21:39:24.586 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Diana'}
+2025-01-28 21:39:25.594 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Eve'}
+2025-01-28 21:39:26.598 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Charlie'}
+2025-01-28 21:39:27.601 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Eve'}
+2025-01-28 21:39:28.605 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Diana'}
+2025-01-28 21:39:29.607 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Charlie'}
+2025-01-28 21:39:30.611 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Charlie'}
+2025-01-28 21:39:31.618 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Bob'}
+2025-01-28 21:39:32.622 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Eve'}
+2025-01-28 21:39:33.629 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Diana'}
+2025-01-28 21:39:34.636 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Alice'}
+2025-01-28 21:39:35.661 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Diana'}
+2025-01-28 21:39:36.670 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Alice'}
+2025-01-28 21:39:37.673 | INFO     | __main__:generate_messages:95 - Opening data file in read mode: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\buzz.json
+2025-01-28 21:39:37.674 | INFO     | __main__:generate_messages:97 - Reading data from file: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\buzz.json
+2025-01-28 21:39:37.676 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Eve'}
+2025-01-28 21:39:38.692 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Alice'}
+2025-01-28 21:39:39.702 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Charlie'}
+2025-01-28 21:39:40.705 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Alice'}
+2025-01-28 21:39:41.710 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Diana'}
+2025-01-28 21:39:42.719 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Alice'}
+2025-01-28 21:39:43.726 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Diana'}
+2025-01-28 21:39:44.734 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Eve'}
+2025-01-28 21:39:45.740 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Eve'}
+2025-01-28 21:39:46.743 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Alice'}
+2025-01-28 21:39:47.745 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Diana'}
+2025-01-28 21:39:48.749 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Diana'}
+2025-01-28 21:39:49.757 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Charlie'}
+2025-01-28 21:39:50.762 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Bob'}
+2025-01-28 21:39:51.766 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Bob'}
+2025-01-28 21:39:52.768 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Eve'}
+2025-01-28 21:39:53.772 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Eve'}
+2025-01-28 21:39:54.775 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Alice'}
+2025-01-28 21:39:55.778 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Alice'}
+2025-01-28 21:39:56.783 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Diana'}
+2025-01-28 21:39:57.785 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Eve'}
+2025-01-28 21:39:58.789 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Charlie'}
+2025-01-28 21:39:59.793 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Bob'}
+2025-01-28 21:40:00.799 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Alice'}
+2025-01-28 21:40:01.802 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Diana'}
+2025-01-28 21:40:02.804 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Diana'}
+2025-01-28 21:40:03.808 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Bob'}
+2025-01-28 21:40:04.812 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Diana'}
+2025-01-28 21:40:05.817 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Diana'}
+2025-01-28 21:40:06.821 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Alice'}
+2025-01-28 21:40:07.823 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Charlie'}
+2025-01-28 21:40:08.827 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Diana'}
+2025-01-28 21:40:09.830 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Bob'}
+2025-01-28 21:40:10.833 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana'}
+2025-01-28 21:40:11.836 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Alice'}
+2025-01-28 21:40:12.838 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Alice'}
+2025-01-28 21:40:13.842 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Charlie'}
+2025-01-28 21:40:14.844 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Bob'}
+2025-01-28 21:40:15.847 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Diana'}
+2025-01-28 21:40:16.850 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana'}
+2025-01-28 21:40:17.853 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Alice'}
+2025-01-28 21:40:18.856 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Charlie'}
+2025-01-28 21:40:19.858 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice'}
+2025-01-28 21:40:20.860 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Diana'}
+2025-01-28 21:40:21.863 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice'}
+2025-01-28 21:40:22.866 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Bob'}
+2025-01-28 21:40:23.870 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Bob'}
+2025-01-28 21:40:24.872 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Diana'}
+2025-01-28 21:40:25.873 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Bob'}
+2025-01-28 21:40:26.877 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Eve'}
+2025-01-28 21:40:27.881 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Bob'}
+2025-01-28 21:40:28.883 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Alice'}
+2025-01-28 21:40:29.885 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Eve'}
+2025-01-28 21:40:30.889 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice'}
+2025-01-28 21:40:31.890 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Bob'}
+2025-01-28 21:40:32.892 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Charlie'}
+2025-01-28 21:40:33.896 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana'}
+2025-01-28 21:40:34.897 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Bob'}
+2025-01-28 21:40:35.901 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice'}
+2025-01-28 21:40:36.903 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Alice'}
+2025-01-28 21:40:37.906 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana'}
+2025-01-28 21:40:38.909 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Alice'}
+2025-01-28 21:40:39.912 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Diana'}
+2025-01-28 21:40:40.916 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Bob'}
+2025-01-28 21:40:41.920 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana'}
+2025-01-28 21:40:42.923 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice'}
+2025-01-28 21:40:43.926 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Eve'}
+2025-01-28 21:40:44.929 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana'}
+2025-01-28 21:40:45.932 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Charlie'}
+2025-01-28 21:40:46.936 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Charlie'}
+2025-01-28 21:40:47.939 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Alice'}
+2025-01-28 21:40:48.942 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Diana'}
+2025-01-28 21:40:49.944 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Bob'}
+2025-01-28 21:40:50.947 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Eve'}
+2025-01-28 21:40:51.951 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Charlie'}
+2025-01-28 21:40:52.954 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Charlie'}
+2025-01-28 21:40:53.957 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Charlie'}
+2025-01-28 21:40:54.957 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Diana'}
+2025-01-28 21:40:55.961 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Diana'}
+2025-01-28 21:40:56.964 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Eve'}
+2025-01-28 21:40:57.966 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Eve'}
+2025-01-28 21:40:58.719 | WARNING  | __main__:main:173 - Producer interrupted by user.
+2025-01-28 21:40:58.721 | INFO     | __main__:main:178 - Kafka producer closed.
+2025-01-28 21:40:58.721 | INFO     | __main__:main:180 - END producer.
+2025-01-29 18:10:56.821 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-29 18:10:56.825 | INFO     | __main__:<module>:68 - Project root: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger
+2025-01-29 18:10:56.825 | INFO     | __main__:<module>:72 - Data folder: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data
+2025-01-29 18:10:56.826 | INFO     | __main__:<module>:76 - Data file: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\buzz.json
+2025-01-29 18:10:56.826 | INFO     | __main__:main:136 - START producer.
+2025-01-29 18:10:56.827 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-01-29 18:10:56.851 | INFO     | utils.utils_producer:check_zookeeper_service_is_ready:79 - Zookeeper is ready at localhost:2181.
+2025-01-29 18:10:56.852 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 18:10:57.185 | INFO     | utils.utils_producer:check_kafka_service_is_ready:98 - Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1001, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'Ig9i0AckR0yfrIqecC4bmA', 'controller_id': 1001}
+2025-01-29 18:10:57.186 | INFO     | __main__:get_kafka_topic:50 - Kafka topic: buzzline_json
+2025-01-29 18:10:57.186 | INFO     | __main__:get_message_interval:57 - Message interval: 1 seconds
+2025-01-29 18:10:57.187 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 18:10:57.187 | INFO     | utils.utils_producer:create_kafka_producer:146 - Connecting to Kafka broker at localhost:9092...
+2025-01-29 18:10:57.296 | INFO     | utils.utils_producer:create_kafka_producer:151 - Kafka producer successfully created.
+2025-01-29 18:10:57.297 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 18:10:57.613 | INFO     | utils.utils_producer:create_kafka_topic:176 - Creating 'buzzline_json'.
+2025-01-29 18:10:57.823 | INFO     | utils.utils_producer:create_kafka_topic:181 - Topic 'buzzline_json' created successfully.
+2025-01-29 18:10:57.823 | INFO     | __main__:main:159 - Kafka topic 'buzzline_json' is ready.
+2025-01-29 18:10:57.824 | INFO     | __main__:main:165 - Starting message production to topic 'buzzline_json'...
+2025-01-29 18:10:57.824 | INFO     | __main__:generate_messages:95 - Opening data file in read mode: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\buzz.json
+2025-01-29 18:10:57.834 | INFO     | __main__:generate_messages:97 - Reading data from file: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\buzz.json
+2025-01-29 18:10:57.845 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Eve'}
+2025-01-29 18:10:58.848 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Alice'}
+2025-01-29 18:10:59.850 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Charlie'}
+2025-01-29 18:11:00.365 | WARNING  | __main__:main:173 - Producer interrupted by user.
+2025-01-29 18:11:00.368 | INFO     | __main__:main:178 - Kafka producer closed.
+2025-01-29 18:11:00.368 | INFO     | __main__:main:180 - END producer.
+2025-01-29 18:14:01.631 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-29 18:14:01.634 | INFO     | __main__:<module>:66 - Project root: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger
+2025-01-29 18:14:01.634 | INFO     | __main__:<module>:70 - Data folder: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data
+2025-01-29 18:14:01.634 | INFO     | __main__:<module>:74 - Data file: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\smoker_temps.csv
+2025-01-29 18:14:01.635 | INFO     | __main__:main:134 - START producer.
+2025-01-29 18:14:01.636 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-01-29 18:14:01.642 | INFO     | utils.utils_producer:check_zookeeper_service_is_ready:79 - Zookeeper is ready at localhost:2181.
+2025-01-29 18:14:01.642 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 18:14:01.969 | INFO     | utils.utils_producer:check_kafka_service_is_ready:98 - Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1001, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'Ig9i0AckR0yfrIqecC4bmA', 'controller_id': 1001}
+2025-01-29 18:14:01.969 | INFO     | __main__:get_kafka_topic:48 - Kafka topic: smoker_csv
+2025-01-29 18:14:01.970 | INFO     | __main__:get_message_interval:55 - Message interval: 5 seconds
+2025-01-29 18:14:01.970 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 18:14:01.970 | INFO     | utils.utils_producer:create_kafka_producer:146 - Connecting to Kafka broker at localhost:9092...
+2025-01-29 18:14:02.078 | INFO     | utils.utils_producer:create_kafka_producer:151 - Kafka producer successfully created.
+2025-01-29 18:14:02.078 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 18:14:02.398 | INFO     | utils.utils_producer:create_kafka_topic:176 - Creating 'smoker_csv'.
+2025-01-29 18:14:02.478 | INFO     | utils.utils_producer:create_kafka_topic:181 - Topic 'smoker_csv' created successfully.
+2025-01-29 18:14:02.478 | INFO     | __main__:main:157 - Kafka topic 'smoker_csv' is ready.
+2025-01-29 18:14:02.479 | INFO     | __main__:main:163 - Starting message production to topic 'smoker_csv'...
+2025-01-29 18:14:02.480 | INFO     | __main__:generate_messages:93 - Opening data file in read mode: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\smoker_temps.csv
+2025-01-29 18:14:02.490 | INFO     | __main__:generate_messages:95 - Reading data from file: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\smoker_temps.csv
+2025-01-29 18:14:02.561 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:14:02.490860', 'temperature': 70.4}
+2025-01-29 18:14:07.567 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:14:07.566551', 'temperature': 70.8}
+2025-01-29 18:14:12.570 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:14:12.569425', 'temperature': 71.2}
+2025-01-29 18:14:17.572 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:14:17.572013', 'temperature': 71.6}
+2025-01-29 18:14:22.575 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:14:22.574010', 'temperature': 72.0}
+2025-01-29 18:14:27.577 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:14:27.577009', 'temperature': 72.4}
+2025-01-29 18:14:32.579 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:14:32.579025', 'temperature': 72.8}
+2025-01-29 18:14:37.582 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:14:37.581108', 'temperature': 73.2}
+2025-01-29 18:14:42.586 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:14:42.583547', 'temperature': 73.6}
+2025-01-29 18:14:47.589 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:14:47.588968', 'temperature': 74.0}
+2025-01-29 18:14:52.591 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:14:52.591198', 'temperature': 74.4}
+2025-01-29 18:14:57.594 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:14:57.592986', 'temperature': 74.8}
+2025-01-29 18:15:02.596 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:15:02.595646', 'temperature': 75.2}
+2025-01-29 18:15:07.599 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:15:07.598531', 'temperature': 75.6}
+2025-01-29 18:15:12.600 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:15:12.600423', 'temperature': 76.0}
+2025-01-29 18:15:17.604 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:15:17.602365', 'temperature': 76.4}
+2025-01-29 18:15:22.605 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:15:22.605241', 'temperature': 76.8}
+2025-01-29 18:15:27.608 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:15:27.607519', 'temperature': 77.2}
+2025-01-29 18:15:32.610 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:15:32.609100', 'temperature': 77.6}
+2025-01-29 18:15:37.612 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:15:37.611314', 'temperature': 78.0}
+2025-01-29 18:15:42.614 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:15:42.613780', 'temperature': 78.4}
+2025-01-29 18:15:47.620 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:15:47.615836', 'temperature': 78.8}
+2025-01-29 18:15:52.626 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:15:52.624667', 'temperature': 79.2}
+2025-01-29 18:15:57.630 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:15:57.629931', 'temperature': 79.6}
+2025-01-29 18:16:02.631 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:16:02.631972', 'temperature': 80.0}
+2025-01-29 18:16:07.635 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:16:07.633932', 'temperature': 80.4}
+2025-01-29 18:16:12.636 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:16:12.636666', 'temperature': 80.8}
+2025-01-29 18:16:17.639 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:16:17.638701', 'temperature': 81.2}
+2025-01-29 18:16:22.644 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:16:22.643002', 'temperature': 81.6}
+2025-01-29 18:16:27.645 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:16:27.645742', 'temperature': 82.0}
+2025-01-29 18:16:32.648 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:16:32.647405', 'temperature': 82.4}
+2025-01-29 18:16:37.649 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:16:37.649412', 'temperature': 82.8}
+2025-01-29 18:16:42.651 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:16:42.651258', 'temperature': 83.2}
+2025-01-29 18:16:43.936 | WARNING  | __main__:main:170 - Producer interrupted by user.
+2025-01-29 18:16:43.938 | INFO     | __main__:main:175 - Kafka producer closed.
+2025-01-29 18:16:43.938 | INFO     | __main__:main:177 - END producer.
+2025-01-29 18:51:19.750 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-29 18:51:19.754 | INFO     | __main__:<module>:66 - Project root: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger
+2025-01-29 18:51:19.754 | INFO     | __main__:<module>:70 - Data folder: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data
+2025-01-29 18:51:19.754 | INFO     | __main__:<module>:74 - Data file: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\smoker_temps.csv
+2025-01-29 18:51:19.755 | INFO     | __main__:main:134 - START producer.
+2025-01-29 18:51:19.755 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-01-29 18:51:19.766 | INFO     | utils.utils_producer:check_zookeeper_service_is_ready:79 - Zookeeper is ready at localhost:2181.
+2025-01-29 18:51:19.769 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 18:51:20.095 | INFO     | utils.utils_producer:check_kafka_service_is_ready:98 - Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1001, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'Ig9i0AckR0yfrIqecC4bmA', 'controller_id': 1001}
+2025-01-29 18:51:20.096 | INFO     | __main__:get_kafka_topic:48 - Kafka topic: smoker_csv
+2025-01-29 18:51:20.097 | INFO     | __main__:get_message_interval:55 - Message interval: 5 seconds
+2025-01-29 18:51:20.098 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 18:51:20.098 | INFO     | utils.utils_producer:create_kafka_producer:146 - Connecting to Kafka broker at localhost:9092...
+2025-01-29 18:51:20.204 | INFO     | utils.utils_producer:create_kafka_producer:151 - Kafka producer successfully created.
+2025-01-29 18:51:20.204 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 18:51:20.520 | INFO     | utils.utils_producer:create_kafka_topic:172 - Topic 'smoker_csv' already exists. Clearing it out...
+2025-01-29 18:51:20.521 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 18:51:20.863 | ERROR    | utils.utils_producer:clear_kafka_topic:235 - Error managing retention for topic 'smoker_csv': list indices must be integers or slices, not ConfigResource
+2025-01-29 18:51:20.864 | INFO     | __main__:main:157 - Kafka topic 'smoker_csv' is ready.
+2025-01-29 18:51:20.865 | INFO     | __main__:main:163 - Starting message production to topic 'smoker_csv'...
+2025-01-29 18:51:20.865 | INFO     | __main__:generate_messages:93 - Opening data file in read mode: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\smoker_temps.csv
+2025-01-29 18:51:20.866 | INFO     | __main__:generate_messages:95 - Reading data from file: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\smoker_temps.csv
+2025-01-29 18:51:20.868 | ERROR    | __main__:main:172 - Error during message production: Object of type datetime is not JSON serializable
+2025-01-29 18:51:20.870 | INFO     | __main__:main:175 - Kafka producer closed.
+2025-01-29 18:51:20.870 | INFO     | __main__:main:177 - END producer.
+2025-01-29 18:51:39.709 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-29 18:51:39.711 | INFO     | __main__:<module>:66 - Project root: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger
+2025-01-29 18:51:39.712 | INFO     | __main__:<module>:70 - Data folder: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data
+2025-01-29 18:51:39.712 | INFO     | __main__:<module>:74 - Data file: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\smoker_temps.csv
+2025-01-29 18:51:39.712 | INFO     | __main__:main:134 - START producer.
+2025-01-29 18:51:39.713 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-01-29 18:51:39.725 | INFO     | utils.utils_producer:check_zookeeper_service_is_ready:79 - Zookeeper is ready at localhost:2181.
+2025-01-29 18:51:39.725 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 18:51:40.044 | INFO     | utils.utils_producer:check_kafka_service_is_ready:98 - Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1001, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'Ig9i0AckR0yfrIqecC4bmA', 'controller_id': 1001}
+2025-01-29 18:51:40.046 | INFO     | __main__:get_kafka_topic:48 - Kafka topic: smoker_csv
+2025-01-29 18:51:40.047 | INFO     | __main__:get_message_interval:55 - Message interval: 5 seconds
+2025-01-29 18:51:40.048 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 18:51:40.048 | INFO     | utils.utils_producer:create_kafka_producer:146 - Connecting to Kafka broker at localhost:9092...
+2025-01-29 18:51:40.156 | INFO     | utils.utils_producer:create_kafka_producer:151 - Kafka producer successfully created.
+2025-01-29 18:51:40.156 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 18:51:40.475 | INFO     | utils.utils_producer:create_kafka_topic:172 - Topic 'smoker_csv' already exists. Clearing it out...
+2025-01-29 18:51:40.475 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 18:51:40.795 | ERROR    | utils.utils_producer:clear_kafka_topic:235 - Error managing retention for topic 'smoker_csv': list indices must be integers or slices, not ConfigResource
+2025-01-29 18:51:40.796 | INFO     | __main__:main:157 - Kafka topic 'smoker_csv' is ready.
+2025-01-29 18:51:40.798 | INFO     | __main__:main:163 - Starting message production to topic 'smoker_csv'...
+2025-01-29 18:51:40.798 | INFO     | __main__:generate_messages:93 - Opening data file in read mode: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\smoker_temps.csv
+2025-01-29 18:51:40.799 | INFO     | __main__:generate_messages:95 - Reading data from file: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\smoker_temps.csv
+2025-01-29 18:51:40.800 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:51:40.799431', 'temperature': 70.4}
+2025-01-29 18:51:45.802 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:51:45.802254', 'temperature': 70.8}
+2025-01-29 18:51:50.804 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:51:50.803922', 'temperature': 71.2}
+2025-01-29 18:51:55.806 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:51:55.805611', 'temperature': 71.6}
+2025-01-29 18:51:55.850 | WARNING  | __main__:main:170 - Producer interrupted by user.
+2025-01-29 18:51:55.851 | INFO     | __main__:main:175 - Kafka producer closed.
+2025-01-29 18:51:55.853 | INFO     | __main__:main:177 - END producer.
+2025-01-29 18:56:02.397 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-29 18:56:02.400 | INFO     | __main__:<module>:66 - Project root: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger
+2025-01-29 18:56:02.401 | INFO     | __main__:<module>:70 - Data folder: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data
+2025-01-29 18:56:02.401 | INFO     | __main__:<module>:74 - Data file: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\smoker_temps.csv
+2025-01-29 18:56:02.401 | INFO     | __main__:main:134 - START producer.
+2025-01-29 18:56:02.401 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-01-29 18:56:02.413 | INFO     | utils.utils_producer:check_zookeeper_service_is_ready:79 - Zookeeper is ready at localhost:2181.
+2025-01-29 18:56:02.413 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 18:56:02.730 | INFO     | utils.utils_producer:check_kafka_service_is_ready:98 - Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1001, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'Ig9i0AckR0yfrIqecC4bmA', 'controller_id': 1001}
+2025-01-29 18:56:02.731 | INFO     | __main__:get_kafka_topic:48 - Kafka topic: smoker_csv
+2025-01-29 18:56:02.732 | INFO     | __main__:get_message_interval:55 - Message interval: 5 seconds
+2025-01-29 18:56:02.733 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 18:56:02.734 | INFO     | utils.utils_producer:create_kafka_producer:146 - Connecting to Kafka broker at localhost:9092...
+2025-01-29 18:56:02.841 | INFO     | utils.utils_producer:create_kafka_producer:151 - Kafka producer successfully created.
+2025-01-29 18:56:02.842 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 18:56:03.158 | INFO     | utils.utils_producer:create_kafka_topic:172 - Topic 'smoker_csv' already exists. Clearing it out...
+2025-01-29 18:56:03.159 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 18:56:03.478 | ERROR    | utils.utils_producer:clear_kafka_topic:235 - Error managing retention for topic 'smoker_csv': list indices must be integers or slices, not ConfigResource
+2025-01-29 18:56:03.479 | INFO     | __main__:main:157 - Kafka topic 'smoker_csv' is ready.
+2025-01-29 18:56:03.481 | INFO     | __main__:main:163 - Starting message production to topic 'smoker_csv'...
+2025-01-29 18:56:03.482 | INFO     | __main__:generate_messages:93 - Opening data file in read mode: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\smoker_temps.csv
+2025-01-29 18:56:03.482 | INFO     | __main__:generate_messages:95 - Reading data from file: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\smoker_temps.csv
+2025-01-29 18:56:03.483 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:56:03.483029', 'temperature': 70.4}
+2025-01-29 18:56:08.484 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:56:08.484674', 'temperature': 70.8}
+2025-01-29 18:56:13.486 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:56:13.486481', 'temperature': 71.2}
+2025-01-29 18:56:14.377 | WARNING  | __main__:main:170 - Producer interrupted by user.
+2025-01-29 18:56:14.377 | INFO     | __main__:main:175 - Kafka producer closed.
+2025-01-29 18:56:14.378 | INFO     | __main__:main:177 - END producer.
+2025-01-29 18:56:20.978 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-29 18:56:20.981 | INFO     | __main__:<module>:66 - Project root: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger
+2025-01-29 18:56:20.982 | INFO     | __main__:<module>:70 - Data folder: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data
+2025-01-29 18:56:20.982 | INFO     | __main__:<module>:74 - Data file: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\smoker_temps.csv
+2025-01-29 18:56:20.982 | INFO     | __main__:main:134 - START producer.
+2025-01-29 18:56:20.982 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-01-29 18:56:20.990 | INFO     | utils.utils_producer:check_zookeeper_service_is_ready:79 - Zookeeper is ready at localhost:2181.
+2025-01-29 18:56:20.991 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 18:56:21.311 | INFO     | utils.utils_producer:check_kafka_service_is_ready:98 - Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1001, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'Ig9i0AckR0yfrIqecC4bmA', 'controller_id': 1001}
+2025-01-29 18:56:21.312 | INFO     | __main__:get_kafka_topic:48 - Kafka topic: smoker_csv
+2025-01-29 18:56:21.312 | INFO     | __main__:get_message_interval:55 - Message interval: 5 seconds
+2025-01-29 18:56:21.313 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 18:56:21.313 | INFO     | utils.utils_producer:create_kafka_producer:146 - Connecting to Kafka broker at localhost:9092...
+2025-01-29 18:56:21.420 | INFO     | utils.utils_producer:create_kafka_producer:151 - Kafka producer successfully created.
+2025-01-29 18:56:21.421 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 18:56:21.740 | INFO     | utils.utils_producer:create_kafka_topic:172 - Topic 'smoker_csv' already exists. Clearing it out...
+2025-01-29 18:56:21.740 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 18:56:22.058 | ERROR    | utils.utils_producer:clear_kafka_topic:235 - Error managing retention for topic 'smoker_csv': list indices must be integers or slices, not ConfigResource
+2025-01-29 18:56:22.059 | INFO     | __main__:main:157 - Kafka topic 'smoker_csv' is ready.
+2025-01-29 18:56:22.060 | INFO     | __main__:main:163 - Starting message production to topic 'smoker_csv'...
+2025-01-29 18:56:22.060 | INFO     | __main__:generate_messages:93 - Opening data file in read mode: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\smoker_temps.csv
+2025-01-29 18:56:22.061 | INFO     | __main__:generate_messages:95 - Reading data from file: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\smoker_temps.csv
+2025-01-29 18:56:22.061 | ERROR    | __main__:generate_messages:116 - Unexpected error in message generation: 'str' object has no attribute 'time'
+2025-01-29 18:56:22.062 | INFO     | __main__:main:175 - Kafka producer closed.
+2025-01-29 18:56:45.395 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-29 18:56:45.398 | INFO     | __main__:<module>:66 - Project root: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger
+2025-01-29 18:56:45.398 | INFO     | __main__:<module>:70 - Data folder: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data
+2025-01-29 18:56:45.398 | INFO     | __main__:<module>:74 - Data file: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\smoker_temps.csv
+2025-01-29 18:56:45.399 | INFO     | __main__:main:134 - START producer.
+2025-01-29 18:56:45.399 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-01-29 18:56:45.411 | INFO     | utils.utils_producer:check_zookeeper_service_is_ready:79 - Zookeeper is ready at localhost:2181.
+2025-01-29 18:56:45.411 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 18:56:45.743 | INFO     | utils.utils_producer:check_kafka_service_is_ready:98 - Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1001, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'Ig9i0AckR0yfrIqecC4bmA', 'controller_id': 1001}
+2025-01-29 18:56:45.745 | INFO     | __main__:get_kafka_topic:48 - Kafka topic: smoker_csv
+2025-01-29 18:56:45.747 | INFO     | __main__:get_message_interval:55 - Message interval: 5 seconds
+2025-01-29 18:56:45.748 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 18:56:45.748 | INFO     | utils.utils_producer:create_kafka_producer:146 - Connecting to Kafka broker at localhost:9092...
+2025-01-29 18:56:45.855 | INFO     | utils.utils_producer:create_kafka_producer:151 - Kafka producer successfully created.
+2025-01-29 18:56:45.855 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 18:56:46.184 | INFO     | utils.utils_producer:create_kafka_topic:172 - Topic 'smoker_csv' already exists. Clearing it out...
+2025-01-29 18:56:46.185 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 18:56:46.501 | ERROR    | utils.utils_producer:clear_kafka_topic:235 - Error managing retention for topic 'smoker_csv': list indices must be integers or slices, not ConfigResource
+2025-01-29 18:56:46.501 | INFO     | __main__:main:157 - Kafka topic 'smoker_csv' is ready.
+2025-01-29 18:56:46.504 | INFO     | __main__:main:163 - Starting message production to topic 'smoker_csv'...
+2025-01-29 18:56:46.504 | INFO     | __main__:generate_messages:93 - Opening data file in read mode: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\smoker_temps.csv
+2025-01-29 18:56:46.504 | INFO     | __main__:generate_messages:95 - Reading data from file: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\smoker_temps.csv
+2025-01-29 18:56:46.506 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:56:46.504862', 'temperature': 70.4}
+2025-01-29 18:56:51.507 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:56:51.507103', 'temperature': 70.8}
+2025-01-29 18:56:56.509 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-01-30T00:56:56.508651', 'temperature': 71.2}
+2025-01-29 18:56:58.123 | WARNING  | __main__:main:170 - Producer interrupted by user.
+2025-01-29 18:56:58.123 | INFO     | __main__:main:175 - Kafka producer closed.
+2025-01-29 18:56:58.126 | INFO     | __main__:main:177 - END producer.
+2025-01-29 18:58:23.456 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-29 18:58:23.459 | INFO     | __main__:<module>:66 - Project root: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger
+2025-01-29 18:58:23.459 | INFO     | __main__:<module>:70 - Data folder: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data
+2025-01-29 18:58:23.459 | INFO     | __main__:<module>:74 - Data file: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\smoker_temps.csv
+2025-01-29 18:58:23.460 | INFO     | __main__:main:134 - START producer.
+2025-01-29 18:58:23.460 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-01-29 18:58:23.468 | INFO     | utils.utils_producer:check_zookeeper_service_is_ready:79 - Zookeeper is ready at localhost:2181.
+2025-01-29 18:58:23.470 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 18:58:23.789 | INFO     | utils.utils_producer:check_kafka_service_is_ready:98 - Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1001, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'Ig9i0AckR0yfrIqecC4bmA', 'controller_id': 1001}
+2025-01-29 18:58:23.790 | INFO     | __main__:get_kafka_topic:48 - Kafka topic: smoker_csv
+2025-01-29 18:58:23.790 | INFO     | __main__:get_message_interval:55 - Message interval: 5 seconds
+2025-01-29 18:58:23.791 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 18:58:23.792 | INFO     | utils.utils_producer:create_kafka_producer:146 - Connecting to Kafka broker at localhost:9092...
+2025-01-29 18:58:23.898 | INFO     | utils.utils_producer:create_kafka_producer:151 - Kafka producer successfully created.
+2025-01-29 18:58:23.899 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 18:58:24.219 | INFO     | utils.utils_producer:create_kafka_topic:172 - Topic 'smoker_csv' already exists. Clearing it out...
+2025-01-29 18:58:24.221 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 18:58:24.553 | ERROR    | utils.utils_producer:clear_kafka_topic:235 - Error managing retention for topic 'smoker_csv': list indices must be integers or slices, not ConfigResource
+2025-01-29 18:58:24.554 | INFO     | __main__:main:157 - Kafka topic 'smoker_csv' is ready.
+2025-01-29 18:58:24.555 | INFO     | __main__:main:163 - Starting message production to topic 'smoker_csv'...
+2025-01-29 18:58:24.556 | INFO     | __main__:generate_messages:93 - Opening data file in read mode: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\smoker_temps.csv
+2025-01-29 18:58:24.557 | INFO     | __main__:generate_messages:95 - Reading data from file: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\smoker_temps.csv
+2025-01-29 18:58:24.559 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '00:58:$S', 'temperature': 70.4}
+2025-01-29 18:58:29.561 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '00:58:$S', 'temperature': 70.8}
+2025-01-29 18:58:34.460 | WARNING  | __main__:main:170 - Producer interrupted by user.
+2025-01-29 18:58:34.463 | INFO     | __main__:main:175 - Kafka producer closed.
+2025-01-29 18:58:34.464 | INFO     | __main__:main:177 - END producer.
+2025-01-29 18:59:56.592 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-29 18:59:56.595 | INFO     | __main__:<module>:66 - Project root: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger
+2025-01-29 18:59:56.595 | INFO     | __main__:<module>:70 - Data folder: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data
+2025-01-29 18:59:56.595 | INFO     | __main__:<module>:74 - Data file: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\smoker_temps.csv
+2025-01-29 18:59:56.596 | INFO     | __main__:main:136 - START producer.
+2025-01-29 18:59:56.596 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-01-29 18:59:56.616 | INFO     | utils.utils_producer:check_zookeeper_service_is_ready:79 - Zookeeper is ready at localhost:2181.
+2025-01-29 18:59:56.617 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 18:59:56.937 | INFO     | utils.utils_producer:check_kafka_service_is_ready:98 - Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1001, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'Ig9i0AckR0yfrIqecC4bmA', 'controller_id': 1001}
+2025-01-29 18:59:56.938 | INFO     | __main__:get_kafka_topic:48 - Kafka topic: smoker_csv
+2025-01-29 18:59:56.939 | INFO     | __main__:get_message_interval:55 - Message interval: 5 seconds
+2025-01-29 18:59:56.939 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 18:59:56.940 | INFO     | utils.utils_producer:create_kafka_producer:146 - Connecting to Kafka broker at localhost:9092...
+2025-01-29 18:59:57.045 | INFO     | utils.utils_producer:create_kafka_producer:151 - Kafka producer successfully created.
+2025-01-29 18:59:57.046 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 18:59:57.362 | INFO     | utils.utils_producer:create_kafka_topic:172 - Topic 'smoker_csv' already exists. Clearing it out...
+2025-01-29 18:59:57.363 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 18:59:57.681 | ERROR    | utils.utils_producer:clear_kafka_topic:235 - Error managing retention for topic 'smoker_csv': list indices must be integers or slices, not ConfigResource
+2025-01-29 18:59:57.681 | INFO     | __main__:main:159 - Kafka topic 'smoker_csv' is ready.
+2025-01-29 18:59:57.683 | INFO     | __main__:main:165 - Starting message production to topic 'smoker_csv'...
+2025-01-29 18:59:57.684 | INFO     | __main__:generate_messages:93 - Opening data file in read mode: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\smoker_temps.csv
+2025-01-29 18:59:57.684 | INFO     | __main__:generate_messages:95 - Reading data from file: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\smoker_temps.csv
+2025-01-29 18:59:57.685 | ERROR    | __main__:generate_messages:118 - Unexpected error in message generation: 'timestamp'
+2025-01-29 18:59:57.686 | INFO     | __main__:main:177 - Kafka producer closed.
+2025-01-29 19:00:41.796 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-29 19:00:41.799 | INFO     | __main__:<module>:66 - Project root: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger
+2025-01-29 19:00:41.799 | INFO     | __main__:<module>:70 - Data folder: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data
+2025-01-29 19:00:41.799 | INFO     | __main__:<module>:74 - Data file: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\smoker_temps.csv
+2025-01-29 19:00:41.800 | INFO     | __main__:main:136 - START producer.
+2025-01-29 19:00:41.800 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-01-29 19:00:41.808 | INFO     | utils.utils_producer:check_zookeeper_service_is_ready:79 - Zookeeper is ready at localhost:2181.
+2025-01-29 19:00:41.809 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 19:00:42.150 | INFO     | utils.utils_producer:check_kafka_service_is_ready:98 - Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1001, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'Ig9i0AckR0yfrIqecC4bmA', 'controller_id': 1001}
+2025-01-29 19:00:42.152 | INFO     | __main__:get_kafka_topic:48 - Kafka topic: smoker_csv
+2025-01-29 19:00:42.153 | INFO     | __main__:get_message_interval:55 - Message interval: 5 seconds
+2025-01-29 19:00:42.153 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 19:00:42.153 | INFO     | utils.utils_producer:create_kafka_producer:146 - Connecting to Kafka broker at localhost:9092...
+2025-01-29 19:00:42.260 | INFO     | utils.utils_producer:create_kafka_producer:151 - Kafka producer successfully created.
+2025-01-29 19:00:42.261 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 19:00:42.576 | INFO     | utils.utils_producer:create_kafka_topic:172 - Topic 'smoker_csv' already exists. Clearing it out...
+2025-01-29 19:00:42.576 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 19:00:42.920 | ERROR    | utils.utils_producer:clear_kafka_topic:235 - Error managing retention for topic 'smoker_csv': list indices must be integers or slices, not ConfigResource
+2025-01-29 19:00:42.922 | INFO     | __main__:main:159 - Kafka topic 'smoker_csv' is ready.
+2025-01-29 19:00:42.922 | INFO     | __main__:main:165 - Starting message production to topic 'smoker_csv'...
+2025-01-29 19:00:42.922 | INFO     | __main__:generate_messages:93 - Opening data file in read mode: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\smoker_temps.csv
+2025-01-29 19:00:42.923 | INFO     | __main__:generate_messages:95 - Reading data from file: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\smoker_temps.csv
+2025-01-29 19:00:42.924 | INFO     | __main__:main:169 - Sent message to topic 'smoker_csv': {'time': '01:00:42', 'date': '2025', 'temperature': 70.4}
+2025-01-29 19:00:47.926 | INFO     | __main__:main:169 - Sent message to topic 'smoker_csv': {'time': '01:00:47', 'date': '2025', 'temperature': 70.8}
+2025-01-29 19:00:50.128 | WARNING  | __main__:main:172 - Producer interrupted by user.
+2025-01-29 19:00:50.130 | INFO     | __main__:main:177 - Kafka producer closed.
+2025-01-29 19:00:50.131 | INFO     | __main__:main:179 - END producer.
+2025-01-29 19:01:29.995 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-29 19:01:29.999 | INFO     | __main__:<module>:66 - Project root: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger
+2025-01-29 19:01:29.999 | INFO     | __main__:<module>:70 - Data folder: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data
+2025-01-29 19:01:29.999 | INFO     | __main__:<module>:74 - Data file: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\smoker_temps.csv
+2025-01-29 19:01:30.000 | INFO     | __main__:main:136 - START producer.
+2025-01-29 19:01:30.000 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-01-29 19:01:30.011 | INFO     | utils.utils_producer:check_zookeeper_service_is_ready:79 - Zookeeper is ready at localhost:2181.
+2025-01-29 19:01:30.012 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 19:01:30.330 | INFO     | utils.utils_producer:check_kafka_service_is_ready:98 - Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1001, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'Ig9i0AckR0yfrIqecC4bmA', 'controller_id': 1001}
+2025-01-29 19:01:30.331 | INFO     | __main__:get_kafka_topic:48 - Kafka topic: smoker_csv
+2025-01-29 19:01:30.332 | INFO     | __main__:get_message_interval:55 - Message interval: 5 seconds
+2025-01-29 19:01:30.333 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 19:01:30.333 | INFO     | utils.utils_producer:create_kafka_producer:146 - Connecting to Kafka broker at localhost:9092...
+2025-01-29 19:01:30.441 | INFO     | utils.utils_producer:create_kafka_producer:151 - Kafka producer successfully created.
+2025-01-29 19:01:30.442 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 19:01:30.759 | INFO     | utils.utils_producer:create_kafka_topic:172 - Topic 'smoker_csv' already exists. Clearing it out...
+2025-01-29 19:01:30.760 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 19:01:31.082 | ERROR    | utils.utils_producer:clear_kafka_topic:235 - Error managing retention for topic 'smoker_csv': list indices must be integers or slices, not ConfigResource
+2025-01-29 19:01:31.083 | INFO     | __main__:main:159 - Kafka topic 'smoker_csv' is ready.
+2025-01-29 19:01:31.087 | INFO     | __main__:main:165 - Starting message production to topic 'smoker_csv'...
+2025-01-29 19:01:31.089 | INFO     | __main__:generate_messages:93 - Opening data file in read mode: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\smoker_temps.csv
+2025-01-29 19:01:31.091 | INFO     | __main__:generate_messages:95 - Reading data from file: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\smoker_temps.csv
+2025-01-29 19:01:31.093 | ERROR    | __main__:main:174 - Error during message production: Object of type time is not JSON serializable
+2025-01-29 19:01:31.094 | INFO     | __main__:main:177 - Kafka producer closed.
+2025-01-29 19:01:31.095 | INFO     | __main__:main:179 - END producer.
+2025-01-29 19:04:20.975 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-29 19:04:20.978 | INFO     | __main__:<module>:66 - Project root: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger
+2025-01-29 19:04:20.979 | INFO     | __main__:<module>:70 - Data folder: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data
+2025-01-29 19:04:20.979 | INFO     | __main__:<module>:74 - Data file: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\smoker_temps.csv
+2025-01-29 19:04:20.979 | INFO     | __main__:main:136 - START producer.
+2025-01-29 19:04:20.980 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-01-29 19:04:20.988 | INFO     | utils.utils_producer:check_zookeeper_service_is_ready:79 - Zookeeper is ready at localhost:2181.
+2025-01-29 19:04:20.989 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 19:04:21.313 | INFO     | utils.utils_producer:check_kafka_service_is_ready:98 - Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1001, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'Ig9i0AckR0yfrIqecC4bmA', 'controller_id': 1001}
+2025-01-29 19:04:21.314 | INFO     | __main__:get_kafka_topic:48 - Kafka topic: smoker_csv
+2025-01-29 19:04:21.315 | INFO     | __main__:get_message_interval:55 - Message interval: 5 seconds
+2025-01-29 19:04:21.316 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 19:04:21.316 | INFO     | utils.utils_producer:create_kafka_producer:146 - Connecting to Kafka broker at localhost:9092...
+2025-01-29 19:04:21.422 | INFO     | utils.utils_producer:create_kafka_producer:151 - Kafka producer successfully created.
+2025-01-29 19:04:21.423 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 19:04:21.740 | INFO     | utils.utils_producer:create_kafka_topic:172 - Topic 'smoker_csv' already exists. Clearing it out...
+2025-01-29 19:04:21.741 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 19:04:22.060 | ERROR    | utils.utils_producer:clear_kafka_topic:235 - Error managing retention for topic 'smoker_csv': list indices must be integers or slices, not ConfigResource
+2025-01-29 19:04:22.061 | INFO     | __main__:main:159 - Kafka topic 'smoker_csv' is ready.
+2025-01-29 19:04:22.061 | INFO     | __main__:main:165 - Starting message production to topic 'smoker_csv'...
+2025-01-29 19:04:22.062 | INFO     | __main__:generate_messages:93 - Opening data file in read mode: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\smoker_temps.csv
+2025-01-29 19:04:22.063 | INFO     | __main__:generate_messages:95 - Reading data from file: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\smoker_temps.csv
+2025-01-29 19:04:22.064 | INFO     | __main__:main:169 - Sent message to topic 'smoker_csv': {'time': '01:04:22', 'date': '2025-01-30', 'temperature': 70.4}
+2025-01-29 19:04:27.066 | INFO     | __main__:main:169 - Sent message to topic 'smoker_csv': {'time': '01:04:27', 'date': '2025-01-30', 'temperature': 70.8}
+2025-01-29 19:04:32.071 | INFO     | __main__:main:169 - Sent message to topic 'smoker_csv': {'time': '01:04:32', 'date': '2025-01-30', 'temperature': 71.2}
+2025-01-29 19:04:34.694 | WARNING  | __main__:main:172 - Producer interrupted by user.
+2025-01-29 19:04:34.697 | INFO     | __main__:main:177 - Kafka producer closed.
+2025-01-29 19:04:34.698 | INFO     | __main__:main:179 - END producer.
+2025-01-29 19:05:21.161 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-29 19:05:21.165 | INFO     | __main__:<module>:66 - Project root: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger
+2025-01-29 19:05:21.165 | INFO     | __main__:<module>:70 - Data folder: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data
+2025-01-29 19:05:21.166 | INFO     | __main__:<module>:74 - Data file: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\smoker_temps.csv
+2025-01-29 19:05:21.166 | INFO     | __main__:main:136 - START producer.
+2025-01-29 19:05:21.167 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-01-29 19:05:21.178 | INFO     | utils.utils_producer:check_zookeeper_service_is_ready:79 - Zookeeper is ready at localhost:2181.
+2025-01-29 19:05:21.178 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 19:05:21.498 | INFO     | utils.utils_producer:check_kafka_service_is_ready:98 - Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1001, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'Ig9i0AckR0yfrIqecC4bmA', 'controller_id': 1001}
+2025-01-29 19:05:21.499 | INFO     | __main__:get_kafka_topic:48 - Kafka topic: smoker_csv
+2025-01-29 19:05:21.499 | INFO     | __main__:get_message_interval:55 - Message interval: 5 seconds
+2025-01-29 19:05:21.500 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 19:05:21.500 | INFO     | utils.utils_producer:create_kafka_producer:146 - Connecting to Kafka broker at localhost:9092...
+2025-01-29 19:05:21.609 | INFO     | utils.utils_producer:create_kafka_producer:151 - Kafka producer successfully created.
+2025-01-29 19:05:21.609 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 19:05:21.936 | INFO     | utils.utils_producer:create_kafka_topic:172 - Topic 'smoker_csv' already exists. Clearing it out...
+2025-01-29 19:05:21.937 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 19:05:22.258 | ERROR    | utils.utils_producer:clear_kafka_topic:235 - Error managing retention for topic 'smoker_csv': list indices must be integers or slices, not ConfigResource
+2025-01-29 19:05:22.260 | INFO     | __main__:main:159 - Kafka topic 'smoker_csv' is ready.
+2025-01-29 19:05:22.260 | INFO     | __main__:main:165 - Starting message production to topic 'smoker_csv'...
+2025-01-29 19:05:22.261 | INFO     | __main__:generate_messages:93 - Opening data file in read mode: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\smoker_temps.csv
+2025-01-29 19:05:22.262 | INFO     | __main__:generate_messages:95 - Reading data from file: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\smoker_temps.csv
+2025-01-29 19:05:22.264 | INFO     | __main__:main:169 - Sent message to topic 'smoker_csv': {'time': '01:05:22', 'date': '2025-01-30', 'temperature': 70.4}
+2025-01-29 19:05:27.266 | INFO     | __main__:main:169 - Sent message to topic 'smoker_csv': {'time': '01:05:27', 'date': '2025-01-30', 'temperature': 70.8}
+2025-01-29 19:05:32.268 | INFO     | __main__:main:169 - Sent message to topic 'smoker_csv': {'time': '01:05:32', 'date': '2025-01-30', 'temperature': 71.2}
+2025-01-29 19:05:37.271 | INFO     | __main__:main:169 - Sent message to topic 'smoker_csv': {'time': '01:05:37', 'date': '2025-01-30', 'temperature': 71.6}
+2025-01-29 19:05:42.272 | INFO     | __main__:main:169 - Sent message to topic 'smoker_csv': {'time': '01:05:42', 'date': '2025-01-30', 'temperature': 72.0}
+2025-01-29 19:05:47.275 | INFO     | __main__:main:169 - Sent message to topic 'smoker_csv': {'time': '01:05:47', 'date': '2025-01-30', 'temperature': 72.4}
+2025-01-29 19:05:52.277 | INFO     | __main__:main:169 - Sent message to topic 'smoker_csv': {'time': '01:05:52', 'date': '2025-01-30', 'temperature': 72.8}
+2025-01-29 19:05:57.280 | INFO     | __main__:main:169 - Sent message to topic 'smoker_csv': {'time': '01:05:57', 'date': '2025-01-30', 'temperature': 73.2}
+2025-01-29 19:06:02.161 | WARNING  | __main__:main:172 - Producer interrupted by user.
+2025-01-29 19:06:02.162 | INFO     | __main__:main:177 - Kafka producer closed.
+2025-01-29 19:06:02.162 | INFO     | __main__:main:179 - END producer.
+2025-01-29 19:07:01.292 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-29 19:07:01.295 | INFO     | __main__:<module>:66 - Project root: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger
+2025-01-29 19:07:01.296 | INFO     | __main__:<module>:70 - Data folder: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data
+2025-01-29 19:07:01.296 | INFO     | __main__:<module>:74 - Data file: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\smoker_temps.csv
+2025-01-29 19:07:01.296 | INFO     | __main__:main:136 - START producer.
+2025-01-29 19:07:01.297 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-01-29 19:07:01.305 | INFO     | utils.utils_producer:check_zookeeper_service_is_ready:79 - Zookeeper is ready at localhost:2181.
+2025-01-29 19:07:01.306 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 19:07:01.629 | INFO     | utils.utils_producer:check_kafka_service_is_ready:98 - Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1001, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'Ig9i0AckR0yfrIqecC4bmA', 'controller_id': 1001}
+2025-01-29 19:07:01.630 | INFO     | __main__:get_kafka_topic:48 - Kafka topic: smoker_csv
+2025-01-29 19:07:01.631 | INFO     | __main__:get_message_interval:55 - Message interval: 5 seconds
+2025-01-29 19:07:01.631 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 19:07:01.632 | INFO     | utils.utils_producer:create_kafka_producer:146 - Connecting to Kafka broker at localhost:9092...
+2025-01-29 19:07:01.741 | INFO     | utils.utils_producer:create_kafka_producer:151 - Kafka producer successfully created.
+2025-01-29 19:07:01.742 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 19:07:02.059 | INFO     | utils.utils_producer:create_kafka_topic:172 - Topic 'smoker_csv' already exists. Clearing it out...
+2025-01-29 19:07:02.060 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-29 19:07:02.378 | ERROR    | utils.utils_producer:clear_kafka_topic:235 - Error managing retention for topic 'smoker_csv': list indices must be integers or slices, not ConfigResource
+2025-01-29 19:07:02.379 | INFO     | __main__:main:159 - Kafka topic 'smoker_csv' is ready.
+2025-01-29 19:07:02.379 | INFO     | __main__:main:165 - Starting message production to topic 'smoker_csv'...
+2025-01-29 19:07:02.381 | INFO     | __main__:generate_messages:93 - Opening data file in read mode: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\smoker_temps.csv
+2025-01-29 19:07:02.381 | INFO     | __main__:generate_messages:95 - Reading data from file: C:\Users\brand\Documents\masters_program\streaming_data\unit_3\buzzline-03-shellenberger\data\smoker_temps.csv
+2025-01-29 19:07:02.382 | ERROR    | __main__:main:174 - Error during message production: Object of type time is not JSON serializable
+2025-01-29 19:07:02.383 | INFO     | __main__:main:177 - Kafka producer closed.
+2025-01-29 19:07:02.384 | INFO     | __main__:main:179 - END producer.
