@@ -101,7 +101,7 @@ def generate_messages(file_path: pathlib.Path):
                         logger.error(f"Missing 'temperature' column in row: {row}")
                         continue
 
-                    # Generate a timestamp and prepare the message
+                    # Generate a time and date and prepare the message
                     current_time = datetime.now(timezone.utc).strftime('%H:%M:%S')
                     current_date = datetime.now().strftime('%A, %B %y')
                     message = {

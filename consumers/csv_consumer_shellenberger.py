@@ -123,11 +123,12 @@ def process_message(message: str, rolling_window: deque, window_size: int) -> No
         # Parse the JSON string into a Python dictionary
         data: dict = json.loads(message)
         temperature = data.get("temperature")
-        timestamp = data.get("timestamp")
+        time = data.get("time")
+        date = data.get('date')
         logger.info(f"Processed JSON message: {data}")
 
         # Ensure the required fields are present
-        if temperature is None or timestamp is None:
+        if temperature is None or time is None or date is None:
             logger.error(f"Invalid message format: {message}")
             return
 
@@ -137,7 +138,7 @@ def process_message(message: str, rolling_window: deque, window_size: int) -> No
         # Check for a stall
         if detect_stall(rolling_window):
             logger.info(
-                f"STALL DETECTED at {timestamp}: Temp stable at {temperature}°F over last {window_size} readings."
+                f"STALL DETECTED on {date} at {time}: Temp stable at {temperature}°F over last {window_size} readings."
             )
 
     except json.JSONDecodeError as e:
