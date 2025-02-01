@@ -21,6 +21,7 @@ import sys
 import time
 import pathlib  # work with file paths
 import json  # work with JSON data
+import polars as pl # similar to pandas
 
 # Import external packages
 from dotenv import load_dotenv
@@ -106,7 +107,7 @@ def generate_messages(file_path: pathlib.Path):
 
                 # Iterate over the entries in the JSON file
                 for buzz_entry in json_data:
-                    logger.debug(f"Generated JSON: {buzz_entry['author']} created meassage: '{buzz_entry['message']}'")
+                    logger.debug(f"{buzz_entry['author']} created message: '{buzz_entry['message']}'")
                     yield buzz_entry
         except FileNotFoundError:
             logger.error(f"File not found: {file_path}. Exiting.")

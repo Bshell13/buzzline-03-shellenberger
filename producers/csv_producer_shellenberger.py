@@ -18,7 +18,7 @@ import time  # control message intervals
 import pathlib  # work with file paths
 import csv  # handle CSV data
 import json  # work with JSON data
-from datetime import datetime  # work with timestamps
+from datetime import datetime, timezone  # work with timestamps
 
 # Import external packages
 from dotenv import load_dotenv
@@ -102,12 +102,14 @@ def generate_messages(file_path: pathlib.Path):
                         continue
 
                     # Generate a timestamp and prepare the message
-                    current_timestamp = datetime.utcnow().isoformat()
+                    current_time = datetime.now(timezone.utc).strftime('%H:%M:%S')
+                    current_date = datetime.now().strftime('%A, %B %y')
                     message = {
-                        "timestamp": current_timestamp,
+                        "time": current_time,
+                        "date": current_date,
                         "temperature": float(row["temperature"]),
                     }
-                    logger.debug(f"Generated message: {message['timestamp']} the temerature was {message['temperature']}")
+                    logger.debug(f"On {message['date']} at {message['time']} the temerature was {message['temperature']}.")
                     yield message
         except FileNotFoundError:
             logger.error(f"File not found: {file_path}. Exiting.")
